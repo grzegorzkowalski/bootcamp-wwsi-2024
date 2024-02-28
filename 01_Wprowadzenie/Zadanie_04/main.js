@@ -17,5 +17,5 @@ function testVars() {
 
 /*
 Wnioski:
-
+// Mogliśmy wypisać tylko c, one, two, three
 */
