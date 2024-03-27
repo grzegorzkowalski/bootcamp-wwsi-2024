@@ -1,32 +1,28 @@
-## Zadanie 1
+## Task 1
+Exam results:
 
-Wyniki egzaminu:
+1. Jan: 30 points.
+1. Thomas: 10 points.
+1. Michael: 16 points.
 
-1. Jan: 30 pkt.
-1. Tomasz: 10 pkt.
-1. Michał: 16 pkt.
+Passing threshold is 15 points.
 
-Próg zaliczeniowy 15 pkt.
+Using a chosen loop and if else statements, check who passed the exam and who did not.
 
-Sprawdź za pomocą instrukcji  `if else` oraz za pomocą instrukcji `switch` kto zaliczył egzamin a kto nie. 
+Display the appropriate information on the console.
 
-Odpowiednią informację wyświetl na konsoli.
+## Task 2
+Write a program that, based on the value of the variable `n`, prints all numbers from `zero to n (inclusive)`.
 
-## Zadanie 2
-
-Napisz program, który na podstawie wartości zmiennej `n` wypisuje wszystkie liczby od zera do n (włącznie).
-
-Przy każdej liczbie program ma napisać, czy liczba jest parzysta, czy nie:
+For each number, the program should state whether the number is even or odd:
 
 0 – even
 1 – odd
 2 – even
 3 – odd
-itd.
+etc.
 
+## Task 3
+Using the `Date object` and the `appropriate method` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear) calculate how many years have passed since your birth.
 
-## Zadanie 3
-
-Za pomocą obiektu Date i odpowiedniej metody (https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear) oblicz ile lat mineło od twojego urodzenia.
-
-Za pomocą pętli wyświetl w konsoli (zmienna `cake`) tort urodziny za każdy swój rok życia. 
+Using a loop, display on the console (variable `cake`) a birthday cake for each year of your life.

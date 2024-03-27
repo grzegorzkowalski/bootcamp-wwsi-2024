@@ -1,27 +1,27 @@
-//Jan: 30 pkt.
-// Tomasz: 10 pkt.
-// Michał: 16 pkt.
+//Jan: 30 points.
+// Thomas: 10 points.
+// Michael: 16 points.
 
-const students = [
+const examResults = [
     {
         name: "Jan",
         score: 30
     },
     {
-        name: "Tomasz",
+        name: "Thomas",
         score: 10
     },
     {
-        name: "Michał",
+        name: "Michael",
         score: 16
     },
 ];
 
-for (let i = 0; i < students.length; i++) {
-    if (students[i].score >= 15) {
-        console.log(students[i].name + " zaliczył egzamin.");
+for (let i = 0; i < examResults.length; i++) {
+    if (examResults[i].score >= 15) {
+        console.log(`${examResults[i].name} passed exam with score ${examResults[i].score}.`);
     }
     else {
-        console.log(students[i].name + " nie zaliczył egzaminu.");
+        console.log(`${examResults[i].name} didn't pass exam with score ${examResults[i].score}.`);
     }
 }
