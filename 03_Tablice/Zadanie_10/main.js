@@ -8,7 +8,6 @@ function getEvenAverage (tab) {
     return avg;
 }
 
-
 console.log(getEvenAverage([1,2,3,4,5,6,7])) //=> 4
 console.log(getEvenAverage([1,1,1,1])) //=> null
 console.log(getEvenAverage([2,8,3,7,4])) //=> 4.8
