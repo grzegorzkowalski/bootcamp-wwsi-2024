@@ -104,6 +104,6 @@ Napisz funkcję ```getEvenAverage```, która ma przyjmować tylko jeden argument
 ```JavaScript
 getEvenAverage([1,2,3,4,5,6,7]) => 4
 getEvenAverage([1,1,1,1]) => null
-getEvenAverage([2,8,3,7,4]) => 4.666
+getEvenAverage([2,8,3,7,4]) => 4.8
 
 
